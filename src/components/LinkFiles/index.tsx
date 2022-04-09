@@ -15,6 +15,7 @@ export function LinkFiles({ title, url }: Props) {
         <a
           href={`${url}`}
           target="_blank"
+          rel='noopener noreferrer'
           className='flex items-center justify-center p-2 tablet:p-3 bg-gray-600 rounded-2xl hover:brightness-90 transition-all'
         >
           <AiOutlineLink />
