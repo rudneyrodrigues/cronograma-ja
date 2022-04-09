@@ -2,7 +2,7 @@ import { LinkFiles } from "../components/LinkFiles";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center p-4 h-screen bg-gray-900">
+    <div className="flex items-center justify-center p-4 tablet:h-screen bg-gray-900">
       <div className="bg-gray-600 p-8 rounded-2xl max-w-3xl w-screen">
         <section className="flex flex-col gap-1 border-b border-gray-900">
           <time className="text-xs laptop:text-xl text-gray-300 text-center">
@@ -49,6 +49,23 @@ export default function Home() {
             <LinkFiles
               title="Testemunho"
               url="https://iasdabv.notion.site/Testemunho-09-04-2022-497ebb81c20b4fd6943d56ca68c928a3"
+            />
+
+            {/* <LinkFiles
+              title=""
+            /> */}
+          </div>
+        </section>
+
+        <section className="mt-4">
+          <h2 className="text-2xl tablet:text-3xl text-white mb-4">
+            Oração Intercessora
+          </h2>
+
+          <div className="flex flex-col tablet:flex-row items-center justify-between gap-2 w-full">
+            <LinkFiles
+              title="Arquivo de orientação"
+              url="https://iasdabv.notion.site/Ora-o-Intercessora-862fb748bbbf4218a2da3c837af44061"
             />
 
             {/* <LinkFiles
